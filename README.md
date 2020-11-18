@@ -2,7 +2,11 @@
 
 Setup:
 - install Arduino suite
-- install these libraries
+- install ESP8266:
+https://arduino-esp8266.readthedocs.io/en/latest/installing.html
+- install libraries:
+Adafruit GFX Library
+Adafruit SSD1306
 
 
 rc3_intro.ino
