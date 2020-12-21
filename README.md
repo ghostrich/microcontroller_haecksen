@@ -16,3 +16,11 @@ Images are black and white and can have these dimensions: 128x32
 
 Here is a tool to convert images to "Adafruit GFXbitmapFont":<br>
 http://javl.github.io/image2cpp/
+
+
+mqtt example
+
+Add your WiFi SSID and password and a MQTT server (e.g. test.mosquitto.org)
+
+For the Python script:
+Install https://pypi.org/project/paho-mqtt/
