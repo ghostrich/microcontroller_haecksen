@@ -18,7 +18,7 @@ Here is a tool to convert images to "Adafruit GFXbitmapFont":<br>
 http://javl.github.io/image2cpp/
 
 
-mqtt example
+<br>mqtt example</br>
 
 Add your WiFi SSID and password and a MQTT server (e.g. test.mosquitto.org)
 
