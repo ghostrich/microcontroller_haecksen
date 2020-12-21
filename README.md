@@ -24,3 +24,6 @@ Add your WiFi SSID and password and a MQTT server (e.g. test.mosquitto.org)
 
 For the Python script:
 Install https://pypi.org/project/paho-mqtt/
+
+More info on mqtt: 
+https://medium.com/python-point/mqtt-basics-with-python-examples-7c758e605d4
