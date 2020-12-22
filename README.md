@@ -1,11 +1,12 @@
 # microcontroller_haecksen
 
 Setup:
-- install Arduino suite
+- install Arduino suite -> https://www.arduino.cc/en/software
 - install ESP8266:
 https://arduino-esp8266.readthedocs.io/en/latest/installing.html
 - install libraries:
 Adafruit GFX Library, Adafruit SSD1306
+- upload .ino files from this repository
 
 
 rc3_intro.ino
@@ -22,7 +23,7 @@ http://javl.github.io/image2cpp/
 
 Add your WiFi SSID and password and a MQTT server (e.g. test.mosquitto.org)
 
-For the Python script:
+For the Python script (to be run on your computer):
 Install https://pypi.org/project/paho-mqtt/
 
 More info on mqtt: 
