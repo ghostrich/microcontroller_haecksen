@@ -20,6 +20,16 @@ void setup() {
 }
 
 void loop() {
+  Serial.println(F("pixels"));
+  for (int numberofpixels = 0; numberofpixels < 25; numberofpixels++) {
+    display.clearDisplay();
+    display.display();
+    display.clearDisplay(); 
+    display.drawPixel(numberofpixels, numberofpixels, SSD1306_WHITE);
+    display.display();
+    delay(10);
+  }
+  
   Serial.println(F("circle"));
   for (int radius = 0; radius < 25; radius++) {
     display.clearDisplay();
