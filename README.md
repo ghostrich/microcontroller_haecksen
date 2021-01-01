@@ -6,7 +6,8 @@ Setup:
 https://arduino-esp8266.readthedocs.io/en/latest/installing.html
 - install libraries:
 Adafruit GFX Library<br>
-Adafruit SSD1306
+Adafruit SSD1306<br>
+U8G2 
 - upload .ino files from this repository
 
 
