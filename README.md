@@ -5,9 +5,9 @@ Setup:
 - install ESP8266:
 https://arduino-esp8266.readthedocs.io/en/latest/installing.html
 - install libraries:
+U8G2 <br>
 Adafruit GFX Library<br>
 Adafruit SSD1306<br>
-U8G2 
 - upload .ino files from this repository
 
 
@@ -16,6 +16,9 @@ rc3_intro.ino
 <img src="rc3.jpg" width=400/>
 
 Images are black and white and can have these dimensions: 128x32 
+
+Here is a tool to convert images to .xbm (needed for U8G2):
+https://www.freefileconvert.com/
 
 Here is a tool to convert images to "Adafruit GFXbitmapFont":<br>
 http://javl.github.io/image2cpp/
