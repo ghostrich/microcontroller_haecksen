@@ -4,7 +4,7 @@
 
 const char* ssid = "WIFI SSID";
 const char* password =  "WIFI password"
-const char* mqttServer = "Server Adresse";
+const char* mqttServer = "test.mosquitto.org";
 
 const int mqttPort = 1883;
 const char* mqttUser = "";
@@ -46,7 +46,7 @@ void connectMQTT() {
       Serial.println("Verbinde zu MQTT...");
  
       if (client.connect("")) {
-        client.subscribe("haecksen");
+        client.subscribe("haecksen_fahrplan");
         Serial.println("verbunden");  
       } else {
         Serial.print("fehlgeschlagen: ");
